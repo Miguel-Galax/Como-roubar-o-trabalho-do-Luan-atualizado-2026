@@ -1,0 +1,44 @@
+:root {
+  --cafe-escuro: #34251d;
+  --creme: #fff8eb;
+  --dourado: #e8b94f;
+}
+
+.marca {
+  color: var(--dourado);
+  font-weight: 700;
+}
+
+.marca:hover,
+.marca:focus-visible {
+  color: #ffda7f;
+}
+
+.cabecalho {
+  background-color: var(--creme);
+  border-bottom: 4px solid var(--dourado);
+  color: var(--cafe-escuro);
+}
+
+.cabecalho .lead {
+  max-width: 42rem;
+  margin-inline: auto;
+}
+
+.cartão {
+  border-color: #e8dccb;
+  border-top: 3px solid var(--dourado);
+}
+
+.btn-warning {
+  background-color: var(--dourado);
+  border-color: var(--dourado);
+  color: var(--cafe-escuro);
+}
+
+.btn-warning:hover,
+.btn-warning:focus-visible {
+  background-color: #d7a536;
+  border-color: #d7a536;
+  color: #211710;
+}
