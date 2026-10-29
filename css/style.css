@@ -4,28 +4,28 @@
   --dourado: #e8b94f;
 }
 
-.marca {
+.grao-brand {
   color: var(--dourado);
   font-weight: 700;
 }
 
-.marca:hover,
-.marca:focus-visible {
+.grao-brand:hover,
+.grao-brand:focus-visible {
   color: #ffda7f;
 }
 
-.cabecalho {
+.grao-header {
   background-color: var(--creme);
   border-bottom: 4px solid var(--dourado);
   color: var(--cafe-escuro);
 }
 
-.cabecalho .lead {
+.grao-header .lead {
   max-width: 42rem;
   margin-inline: auto;
 }
 
-.cartão {
+.grao-feature-card {
   border-color: #e8dccb;
   border-top: 3px solid var(--dourado);
 }
